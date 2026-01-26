@@ -1,0 +1,15 @@
+[package]
+name = "maestro"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+hyper = { version = "1", features = ["full"] }
+tokio = { version = "1", features = ["full"] }
+http-body-util = "0.1"
+hyper-util = { version = "0.1", features = ["full"] }
+bytes = "1.0"
+toml = "0.9.11"
+serde = { version = "1.0", features = ["derive"] }
+log = "0.4.29"
+colog = "1.4.0"
